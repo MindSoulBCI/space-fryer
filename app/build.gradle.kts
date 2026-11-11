@@ -9,7 +9,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.spacefryerdiner.p91d27a30"
+        applicationId = "cn.mindsoul.spacefryer"
         minSdk = 35
         targetSdk = 35
         versionCode = 4
