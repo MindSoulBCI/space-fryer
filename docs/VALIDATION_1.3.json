@@ -1,0 +1,16 @@
+{
+  "version": "1.3",
+  "tests": 37,
+  "failures": 0,
+  "build": "passed",
+  "installed": "emulator-5554 / PICO OS 6.1",
+  "runtime": "Login/registration entry visually inspected; automatic cooking and takeover verified by unit tests, not end-to-end controller interaction.",
+  "account": "device-local, no configured cloud account service",
+  "style": {
+    "errors": 0,
+    "warnings": 8
+  },
+  "full_workflow": "not clean: pre-existing Stage immersion metadata and wildcard-import checks; architecture checker rejects existing domain-state alias/shared multi-window ViewModel pattern",
+  "crash_buffer": "contains a system-process (PID 846) crash_dump warning; no fatal exception for app PID 9037 observed",
+  "apk_sha256": "5516576347c5b0f85a1880e2674b8bd736bc53dfaab7a1ed81209bd71d472f95"
+}

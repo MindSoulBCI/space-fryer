@@ -1,0 +1,26 @@
+[
+  {
+    "archive": "para_CC0_particlefx-2.zip",
+    "sha256": "469676f3fc08509e4ec824147d179a51a9a71c380a3d0fd142cf8e30355f50f8",
+    "license": "CC0",
+    "source": "https://opengameart.org/content/animated-particle-effects-2"
+  },
+  {
+    "archive": "Food-20261104T081156Z-1-001.zip",
+    "sha256": "036e79c8e90f0c535fa6b6a226cb6a215113036ac50e35cd8297d3b6655ba6f3",
+    "license": "CC0",
+    "source": "https://quaternius.com/packs/sushirestaurantkit.html"
+  },
+  {
+    "archive": "Environment-20261104T081154Z-1-001.zip",
+    "sha256": "829ccf2f7fe2dc1a2c3d2f0168594ab1c0e18d90d2f0d863b961ef7caeda0051",
+    "license": "CC0",
+    "source": "https://quaternius.com/packs/sushirestaurantkit.html"
+  },
+  {
+    "archive": "Characters-20261104T081154Z-1-001.zip",
+    "sha256": "f13d507964369ecafcae9ecb6b038bc4ba0c84846d753378839669071d220c75",
+    "license": "CC0",
+    "source": "https://quaternius.com/packs/sushirestaurantkit.html"
+  }
+]

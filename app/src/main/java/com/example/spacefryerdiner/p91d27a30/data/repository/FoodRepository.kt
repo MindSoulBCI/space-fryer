@@ -1,0 +1,47 @@
+package com.example.spacefryerdiner.p91d27a30.data.repository
+import com.example.spacefryerdiner.p91d27a30.domain.model.FoodRecipe
+interface FoodRepository { fun all(): List<FoodRecipe> }
+class LocalFoodRepository : FoodRepository {
+ override fun all() = listOf(
+        FoodRecipe(1, "玉米粒", "蓬松爆米花塔", 8f, "dense_pop", "膨胀弹射星光"),
+        FoodRecipe(2, "生鸡肉块", "黄金脆皮炸鸡", 10f, "intense_sizzle", "白面糊转脆金黄"),
+        FoodRecipe(3, "战斧牛排", "极炙炸牛排", 12f, "heavy_sizzle", "焦褐硬壳流光"),
+        FoodRecipe(4, "土豆切块", "黄金波浪薯条", 14f, "crisp_fizz", "脱水硬挺漂浮"),
+        FoodRecipe(5, "生鲜大虾", "黄金天妇罗炸虾", 16f, "light_rustle", "金丝面衣绽放"),
+        FoodRecipe(6, "鱿鱼须", "椒盐轰炸大鱿鱼", 8f, "hiss_pop", "触须卷曲边缘焦红"),
+        FoodRecipe(7, "白豆腐块", "脆皮黄金臭豆腐", 10f, "low_puff", "充气鼓胀酥泡"),
+        FoodRecipe(8, "香蕉截段", "脆皮香蕉派", 12f, "soft_fry", "面包糠硬化热融内馅"),
+        FoodRecipe(9, "牛奶冻方块", "爆浆脆皮炸鲜奶", 14f, "soft_bubble", "晶莹脆皮纯白光"),
+        FoodRecipe(10, "冰淇淋球", "火焰炸冰淇淋", 16f, "thermal_sizzle", "冰火冷雾"),
+        FoodRecipe(11, "猪五花肉条", "现炸小酥肉", 8f, "pepper_crackle", "面糊膨胀花椒爆开"),
+        FoodRecipe(12, "猪里脊肉排", "日式厚切炸猪排", 10f, "deep_rumble", "金黄面包屑肉汁光晕"),
+        FoodRecipe(13, "莲藕片", "香脆炸藕夹", 12f, "dry_crackle", "藕孔金光外缘硬化"),
+        FoodRecipe(14, "生面团圆环", "糖霜甜甜圈", 14f, "dough_puff", "膨起中空翻转漂浮"),
+        FoodRecipe(15, "蘑菇", "酥炸椒盐蘑菇", 16f, "steam_hiss", "菌褶收拢酥化"),
+        FoodRecipe(16, "蟹肉棒", "酥炸金丝蟹柳", 8f, "silk_rustle", "丝缕花朵绽开"),
+        FoodRecipe(17, "鱼排切片", "英式黄金炸鱼", 10f, "batter_bubble", "啤酒面糊膨起"),
+        FoodRecipe(18, "茄子夹", "金牌香炸茄盒", 12f, "low_steam", "外酥内软"),
+        FoodRecipe(19, "虾片生胚", "七彩膨化大虾片", 1f, "whoosh_crisp", "一秒膨大四倍翻卷"),
+        FoodRecipe(20, "苹果角", "肉桂炸苹果派", 16f, "caramel_gurgle", "焦糖结晶金红微光"),
+        FoodRecipe(21, "年糕条", "脆皮红糖年糕", 8f, "sticky_bubble", "炸裂爆口膨起硬皮"),
+        FoodRecipe(22, "鹌鹑蛋", "黄金虎皮鹌鹑蛋", 10f, "micro_pop", "凹凸虎皮皱纹"),
+        FoodRecipe(23, "洋葱圈", "黄金香脆洋葱圈", 12f, "dry_fizz", "圈体金黄硬挺"),
+        FoodRecipe(24, "吐司立方体", "酥香金黄面包丁", 14f, "fine_fry", "焦黄脱水轻盈漂浮"),
+        FoodRecipe(25, "墨鱼丸", "黄金开花墨鱼丸", 16f, "core_hiss", "十字刀口花瓣翻卷"),
+        FoodRecipe(26, "生青椒", "虎皮尖椒天妇罗", 8f, "steam_burst", "外皮起泡白纹"),
+        FoodRecipe(27, "芝士条", "熔岩拉丝芝士棒", 10f, "soft_gurgle", "两端熔融拉丝"),
+        FoodRecipe(28, "馄饨生胚", "酥脆炸云吞", 12f, "light_crack", "燕尾角硬化"),
+        FoodRecipe(29, "鸡皮串", "绝味香脆鸡皮", 14f, "fat_spray", "脱油卷缩"),
+        FoodRecipe(30, "辣椒面糊块", "香酥脆红辣椒脆", 16f, "tiny_dry_pop", "暗红亮泽辣椒籽酥化"),
+        FoodRecipe(31, "胡萝卜", "香脆胡萝卜", 10f, "sizzle", "gold"),
+        FoodRecipe(32, "西兰花", "酥炸西兰花", 10f, "sizzle", "gold"),
+        FoodRecipe(33, "番茄", "天妇罗番茄", 8f, "sizzle", "gold"),
+        FoodRecipe(34, "卷心菜", "酥炸卷心菜", 8f, "sizzle", "gold"),
+        FoodRecipe(35, "点心", "香酥炸点心", 12f, "sizzle", "gold"),
+        FoodRecipe(36, "牛油果", "香酥牛油果", 10f, "sizzle", "gold"),
+        FoodRecipe(37, "三文鱼", "酥炸三文鱼", 12f, "sizzle", "gold"),
+        FoodRecipe(38, "米饭团", "酥脆炸饭团", 10f, "sizzle", "gold"),
+        FoodRecipe(39, "黄瓜", "香炸黄瓜条", 8f, "sizzle", "gold"),
+        FoodRecipe(40, "章鱼", "香酥章鱼", 12f, "sizzle", "gold")
+ )
+}
